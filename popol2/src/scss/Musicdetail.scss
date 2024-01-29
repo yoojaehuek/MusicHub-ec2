@@ -1,0 +1,60 @@
+.song-main{
+    padding: 5vw;
+    justify-content: center;
+    background-color: #000;
+}
+
+.song-details{
+    // width: 800px;
+    display: flex;
+    color: #fff;
+    background-color: #000;
+    flex-direction: column;
+    
+    #detail-out{
+        display: flex;
+        img{
+            height: 250px;
+            width: 250px;
+            // border: 1px solid #000;
+        }
+        #details-in{
+            p{
+                font-size: 20px;
+            }
+            width: 500px;
+            height: 250px;
+            margin-left: 50px;
+        }   
+    }
+    #lyrics{
+        
+        border-top: 1px solid #000;
+        p{
+            font-size: 20px;
+        }
+    }
+    .Buttons{
+        position: absolute;
+        right: 100px;
+        float: auto;
+        #pbtn{                   
+            cursor: pointer;
+            margin-right: 40px;
+            width: 32px;
+            height: 32px;
+        }
+        #plbtn{            
+            cursor: pointer;
+            margin-right: 40px;
+            width: 32px;
+            height: 32px;
+        }
+        #dbtn{            
+            cursor: pointer;
+            width: 32px;
+            height: 32px;
+        }
+    }
+    
+}
